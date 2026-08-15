@@ -1,0 +1,8 @@
+{
+  "name": "guestbook",
+  "methods": [
+    { "name": "write", "args": [{ "name": "author", "type": "Address" }, { "name": "text", "type": "Vec<u8>" }], "returns": null },
+    { "name": "get_count", "args": [], "returns": { "type": "u32" } },
+    { "name": "get_message", "args": [{ "name": "idx", "type": "u32" }], "returns": { "type": "Vec<u8>" } }
+  ]
+}

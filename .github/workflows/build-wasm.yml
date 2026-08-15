@@ -1,0 +1,25 @@
+name: Build WASM and upload artifact
+
+on:
+  push:
+    branches: [ main, 'feature/**' ]
+
+jobs:
+  build-wasm:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install Rust
+        uses: actions-rs/toolchain@v1
+        with:
+          toolchain: stable
+          target: wasm32-unknown-unknown
+      - name: Build guestbook
+        working-directory: contracts/guestbook
+        run: |
+          RUSTFLAGS="-C link-arg=-s" cargo build --target wasm32-unknown-unknown --release
+      - name: Upload wasm artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: guestbook-wasm
+          path: contracts/guestbook/target/wasm32-unknown-unknown/release/guestbook.wasm
