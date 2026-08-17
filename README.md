@@ -14,7 +14,7 @@ Quick start
 
    npm install
 
-2. Build the contract (requires Rust + wasm target):
+2. Build the contract (requires Rust + wasm target):"
 
    cd contracts/guestbook
    cargo build --target wasm32-unknown-unknown --release
