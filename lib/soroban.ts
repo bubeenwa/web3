@@ -16,7 +16,7 @@ export async function getCount(contractId: string): Promise<number>{
   }
 }
 
-// fetchMessages will attempt to query messages from the chain but falls back to local storage.
+
 export async function fetchMessages(contractId: string): Promise<{ idx:number, text:string }[]> {
   // try a simple RPC path that many gateways provide, otherwise return local cache
   try{
