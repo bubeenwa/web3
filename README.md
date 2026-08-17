@@ -19,7 +19,7 @@ Quick start
    cd contracts/guestbook
    cargo build --target wasm32-unknown-unknown --release
 
-   The compiled wasm will be at: target/wasm32-unknown-unknown/release/guestbook.wasm
+   The compiled wasm file will be at: target/wasm32-unknown-unknown/release/guestbook.wasm
 
 3. Deploy with soroban-cli (example for testnet):
 
