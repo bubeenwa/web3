@@ -3,7 +3,7 @@
 This repository contains a developer-focused web app that helps build, deploy, and interact with Soroban smart contracts using a beautiful Next.js + Tailwind + TypeScript UI.
 
 What you'll find here:
-
+- A soroban book
 - A simple Soroban "guestbook" contract (Rust) that stores short messages on-chain.
 - Scripts to build and deploy the contract using soroban-cli (targeting testnet by default).
 - A polished Next.js (TypeScript) frontend that helps you prepare deployments, upload a WASM, and interact with the contract (UI-first experience for devs).
