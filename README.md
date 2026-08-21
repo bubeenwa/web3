@@ -16,7 +16,8 @@ Quick start
 
 2. Build the contract (requires Rust + wasm target):
 
-   cd contracts/guestbook
+ //Build guestbook 
+ cd contracts/guestbook
    cargo build --target wasm32-unknown-unknown --release
 
    The compiled wasm file will be at: target/wasm32-unknown-unknown/release/guestbook.wasm
