@@ -90,6 +90,7 @@ From the repo root:
 
 ```bash
 npm run dev
+pnpm run dev
 ```
 
 Then open:
