@@ -1,6 +1,6 @@
 # Soroban Guestbook + Next.js
 
-A lightweight developer playground for building, deploying, and interacting with Soroban smart contracts from a polished Next.js + Tailwind + TypeScript interface.
+A lightweight developer playground for building, deploying, and interacting with Soroban smart contracts from a polished Next.js + Tailwind + TypeScript interface..
 
 This project provides:
 
