@@ -18,7 +18,7 @@ The goal is to make Soroban development feel approachable for early-stage builde
 - understanding the compiled artifact
 - preparing deployment commands
 - loading a deployed contract ID
-- sending a simple write transaction
+- sending a simple write transaction 
 
 ## Project structure
 
